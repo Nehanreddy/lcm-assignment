@@ -54,3 +54,5 @@ Before you begin, ensure you have the following installed:
 ```bash
 git clone https://github.com/yourusername/lcm-math-game.git
 cd lcm-math-game
+npm install
+npm run dev
