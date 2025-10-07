@@ -1,16 +1,56 @@
-# React + Vite
+# 🎮 LCM Master - Interactive Math Learning Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive educational game designed to teach **Lowest Common Multiple (LCM)** concepts to students in grades **4–7** through engaging visuals and gamified challenges.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
+_Add your app screenshots here to showcase the UI and gameplay._
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔐 **User Authentication** – Secure signup/login with password hashing  
+- 📚 **Interactive Tutorial** – Visual step-by-step LCM explanation  
+- 🎯 **Progressive Levels** – Four difficulty levels with increasing complexity  
+- 💡 **Hint System** – Contextual hints that reveal multiples  
+- 🏆 **Achievement System** – Earn rewards for perfect gameplay  
+- 📊 **Score Tracking** – Monitor your learning progress  
+- 📱 **Responsive Design** – Fully responsive for desktop and mobile devices  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+### 🖥️ Frontend
+- ⚛️ **React.js** – Component-based UI framework  
+- ⚡ **Vite** – Fast build tool and development server  
+- 🎨 **Tailwind CSS** – Utility-first styling  
+- 🧠 **Context API** – Global state management  
+
+### ⚙️ Backend
+- 🐘 **PHP** – Server-side scripting  
+- 🗄️ **MySQL** – Relational database  
+- 🔑 **Session-Based Authentication** – Persistent user login sessions  
+
+---
+
+## 📋 Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v16 or higher)  
+- npm or yarn  
+- [XAMPP](https://www.apachefriends.org/) / [WAMP](https://www.wampserver.com/) (Apache + MySQL + PHP)  
+- PHP **7.4+**  
+- MySQL **5.7+**
+
+---
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/yourusername/lcm-math-game.git
+cd lcm-math-game
